@@ -16,8 +16,8 @@ IPython.display
 warnings
 keras
 Getting Started
-Install the required libraries using pip install <library_name>.
-Download the speech emotion recognition dataset (replace <path_to_dataset> with the actual path).
+Install the required libraries using pip install (All Dependencies).
+Download the speech emotion recognition dataset.
 Modify the script to point to the downloaded dataset location.
 Note: This script assumes the dataset is organized with audio files categorized by emotion in subfolders.
 
@@ -56,15 +56,19 @@ Training:
 
 Compiles the model with categorical cross-entropy loss, Adam optimizer, and accuracy metric.
 Trains the model for 100 epochs with a batch size of 512 and validation split of 20%.
-Evaluation
+
+Evaluation:
+
 The script plots the training and validation accuracy and loss curves to visualize the model's performance during training.
 
 Plots:
 
 Accuracy vs. Epochs: Shows the training and validation accuracy over the training process.
 Loss vs. Epochs: Shows the training and validation loss over the training process.
-Future Work
-Experiment with different hyperparameters (e.g., number of epochs, LSTM units, dropout rate).
-Explore other feature extraction techniques (e.g., spectrograms, Mel spectrograms).
+
+Future Work:
+
+Experiment with different hyperparameters ( number of epochs, LSTM units, dropout rate).
+Explore other feature extraction techniques ( spectrograms, Mel spectrograms).
 Evaluate the model performance with different emotion recognition datasets.
-Implement model evaluation metrics beyond accuracy (e.g., precision, recall, F1-score).
+Implement model evaluation metrics beyond accuracy ( precision, recall, F1-score).
