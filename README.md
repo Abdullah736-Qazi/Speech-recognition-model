@@ -1,5 +1,5 @@
 # Speech-recognition-model
-Build a ML model using deep learning model LSTM  during internship from codelabs
+Build a ML model using deep learning model LSTM  during internship from codealpha
 Speech Emotion Recognition with LSTM
 This project explores the use of Long Short-Term Memory (LSTM) networks for classifying human emotions from speech audio.
 
